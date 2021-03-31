@@ -15,7 +15,6 @@ const AddTodo = () => {
             onChange={(e) => setInput(e.target.value)}
             value={input}
           />
-          <button>filter</button>
           <button
                        onClick={() => {
                         input.trim()
